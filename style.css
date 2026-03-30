@@ -1,0 +1,368 @@
+.mainb{
+    background-image: url("resources/glass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    background-image: url("resources/logo.svg");
+    height: 90px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: "amatic";
+    src: url(fonts/Amatic-Bold.ttf);
+}
+
+@font-face {
+    font-family: "caviari";
+    src: url(fonts/CaviarDreams_Italic.ttf);
+}
+
+@font-face {
+    font-family: "caviarb";
+    src: url(fonts/Caviar_Dreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: "times";
+    src: url(fonts/times\ new\ roman.ttf);
+}
+
+*{font-family:"times";
+font-size: 17px;}
+
+.title2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cloth{
+    background-image: url("resources/cloth.jpg");
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+.profile-icon{
+    background-image: url("resources/profile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cart-icon{
+    background-image: url("resources/bag.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.wish-icon{
+    background-image: url("resources/heart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.head{
+    font-family: "amatic";
+}
+
+.pic-img{
+    height: 650px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.b1{
+    height: 150px;
+   
+}
+
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resources/payment method images/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resources/payment method images/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resources/payment method images/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resources/payment method images/paypal_img.png");
+}
+
+.emptyView{
+    height: 400px;
+    background-image: url("");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.di1{
+    background-size: cover;
+}
+
+.emptyCart{
+    height: 200px;
+    background-image: url("resources/cart.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.blog1{
+    width: 1200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.blogimg{
+    background-image: url("resources/blog1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+.bg-color{
+    background-color: rgb(247, 211, 217);
+}
+
+.bg{
+    background-image: url("resources/cloth.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+
+:root{
+    --main-bg-color: #eee9ec;
+    --main-text-color: rgb(42, 40, 40);
+    --second-text-color: rgb(184, 164, 168);
+    --second-bg-color: rgb(7, 3, 4);
+}
+
+.primary-text{
+    color: var(--main-text-color);
+}
+
+.second-text{
+    color: var(--second-text-color);
+}
+
+.primary-bg{
+    background-image: url(resources/glass.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seccondary-bg{
+    background-color: var(--second-bg-color);
+}
+
+.rounded-full{
+    border-radius: 100%;
+}
+
+#wrapper{
+    overflow-x: hidden;
+    background-image: linear-gradient(
+        to right,
+        #baf3d7
+        #c2f5de
+        #cbf7e4
+        #d4f8ea
+        #ddfaef
+    );
+}
+
+#sidebar-wrapper{
+    min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+
+}
+
+#page-content-wrapper{
+    min-width: 50vw;
+    background-image: url(resources/glass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper.toggled #sidebar-wrapper{
+    margin-left: 0;
+}
+
+#menu-toggle{
+    cursor: pointer;
+}
+
+.list-group-item{
+    border: none;
+    padding: 20px 30px;
+}
+
+.list-group-item.active{
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+
+}
+
+@media (min-width: 768px){
+    #sidebar-wrapper{
+        margin-left: 0;
+    }
+
+    #page-content-wrapper{
+        min-height: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper{
+        margin-left: -15rem;
+    }
+}
+
+.muser{
+    background-image: url(resources/glass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-w-40{
+    width: 100px !important;
+    height: auto;
+}
+
+.card{
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+}
+
+.ui-product-color{
+    display: inline-block;
+    overflow: hidden;
+    margin: .144em;
+    width: .600em;
+    height: .600em;
+    border-radius: 10rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0,.15) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0,.15) inset;
+    vertical-align: middle;
+}
+
+.order{
+    background-image: url(resources/pastel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upuser {
+    margin: 0;
+    color: #2e323c;
+    background: #f5f6fa;
+    position: relative;
+    height: 100%;
+}
+.account-settings .user-profile {
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+    margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 90px;
+    height: 90px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #9fa8b9;
+}
+.account-settings .about {
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+.account-settings .about h5 {
+    margin: 0 0 15px 0;
+    color: #007ae1;
+}
+.account-settings .about p {
+    font-size: 0.825rem;
+}
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: .825rem;
+    background: #ffffff;
+    color: #2e323c;
+}
+
+.card {
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+.admb{
+    background-image: url(resources/glass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.repo{
+    box-shadow: 0px 0px 20px 0px rgb(151, 146, 146);
+}
